@@ -7,7 +7,7 @@
     <link href="/index.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navigation-container">
+    <nav class="nav-container">
       <ul class="list-non-bullet">
         <li class="list-item-inline">
           <span class="nav-brand">Startup 3</span>
@@ -23,27 +23,39 @@
         </li>
       </ul>
     </nav>
-    <div class="about-container">
-      <h1>Generate Awesome Web Pages</h1>
-      <p>
-        The most important part of the Startup is the samples. The samples form
-        a set of 25 usable pages you can use as is or you can add new blocks.
-      </p>
-      <button>Learn More</button>
-    </div>
-    <div class="signup-container">
-      <h2>Sign Up Now</h2>
-      <input placeholder="Your email" />
-      <input placeholder="Your password" />
-      <button>✓ ✔️ ✔</button>
-      <small>I agree to the Terms of Service</small>
-      <button>Sign In</button>
-      <hr />
-      or
-      <hr />
-      <button>Login via Twitter</button>
-      <small>Do you have an Account?</small>
-      <span>Sign In</span>
+    <div class="flex-container">
+      <div class="about-container">
+        <h1>Generate Awesome Web Pages</h1>
+        <p>
+          The most important part of the Startup is the samples. The samples
+          form a set of 25 usable pages you can use as is or you can add new
+          blocks.
+        </p>
+        <button class="learn-more-btn">Learn More</button>
+      </div>
+
+      <div class="signup-container">
+        <h2>Sign Up Now</h2>
+        <div><input placeholder="Your email" /></div>
+        <div><input placeholder="Your password" /></div>
+        <div class="terms-service">
+          <button class="check-btn">✔</button>
+          <small>I agree to the Terms of Service</small>
+        </div>
+        <div>
+          <button class="signin-btn">Sign In</button>
+        </div>
+        <div class="or-line">
+          <small class="line"> or </small>
+        </div>
+        <div><button class="login-btn">Login via Twitter</button></div>
+        <div>
+          <small
+            >Do you have an Account?
+            <span class="colorful-txt">Sign In</span></small
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>
