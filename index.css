@@ -1,0 +1,27 @@
+.nav-brand {
+  padding-right: 6rem;
+  font-size: larger;
+}
+
+.selected-page {
+  color: grey;
+}
+
+.purchase-btn {
+  border-radius: 1.3rem;
+  border-style: none;
+  padding: 0.8rem;
+  font-weight: bold;
+  font-style: inherit;
+}
+
+.list-non-bullet {
+  list-style: none;
+  text-align: right;
+  font-weight: bold;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
