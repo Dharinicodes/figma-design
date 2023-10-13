@@ -10,6 +10,78 @@ body {
   margin: auto;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 10px;
+    margin-left: -30px;
+    margin-top: 30px;
+  }
+
+  .flex-container {
+    margin-top: 50px;
+  }
+
+  .flex-container .about-container > h1 {
+    font-size: 25px;
+  }
+
+  .nav-container .list-non-bullet .list-item-inline {
+    padding: 0px 7px;
+  }
+
+  .list-item-inline .purchase-btn {
+    padding: 3.5px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    font-size: 8px;
+  }
+
+  .about-container .learn-more-btn {
+    padding: 3.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 8px;
+  }
+
+  .list-item-inline .nav-brand {
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 9px;
+  }
+
+  .flex-container .signup-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 170px;
+    height: 350px;
+  }
+
+  .flex-container .signup-container .terms-service {
+    padding-left: 10px;
+  }
+
+  .or-line .line:before {
+    width: 60px;
+    height: 1.5px;
+    left: 10px;
+    top: 50%;
+  }
+
+  .or-line .line:after {
+    width: 60px;
+    height: 1.5px;
+    right: 10px;
+    top: 50%;
+  }
+
+  .signup-container .login-btn {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
 .nav-container {
   padding-top: 1.5rem;
 }
